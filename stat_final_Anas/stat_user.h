@@ -8,25 +8,19 @@ int annee;
 } date;
 //struct liste
 typedef struct{
-int CIN;
-int Ntelephone;
-char nom;
-char prenom;
+char ID[20];
+char mdp[20];
+char nom[20];
+char prenom[20];
+char cin[20];
 date d;
 int sexe;
-int code_postal;
-char role;
+int telephone[20];
+char adresse[20];
+int code_postal[20];
+char role[20];
 int vote;
- 
 }electeur;
-
-
-
-//les fonctions CRUD
-/*int ajouter(char * filename, electeur L);
-int modifier( char * filename,int CIN,electeur nouv );
-int supprimer(char * filename, int CIN);
-electeur chercher(char * filename, int CIN);*/
 
 
 // les fonctions stat
