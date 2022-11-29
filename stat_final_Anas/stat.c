@@ -11,7 +11,7 @@ int i=0;
     FILE * f=fopen(filename, "r");
     if(f!=NULL)
     { 
-while(fscanf(f,"%s %s %s %s %s %d %d %d %d %d %s %d %s %d\n",L.ID,L.mdp,L.nom,L.prenom,L.cin,&L.d.jour,&L.d.mois,&L.d.annee,&L.sexe,&L.telephone,L.adresse,&L.code_postal,L.role,&L.vote)!=EOF )
+while(fscanf(f,"%s %s %s %s %s %d %d %d %d %s %s %s %s %d\n",L.ID,L.mdp,L.nom,L.prenom,L.cin,&L.d.jour,&L.d.mois,&L.d.annee,&L.sexe,&L.telephone,L.adresse,&L.code_postal,L.role,&L.vote)!=EOF )
 {
        i++;
 if(L.sexe==1)
@@ -37,7 +37,7 @@ int i=0;
      FILE * f=fopen(filename, "r");
     if(f!=NULL)
     {
-        while(fscanf(f,"%s %s %s %s %s %d %d %d %d %d %s %d %s %d\n",L.ID,L.mdp,L.nom,L.prenom,L.cin,&L.d.jour,&L.d.mois,&L.d.annee,&L.sexe,&L.telephone,L.adresse,&L.code_postal,L.role,&L.vote)!=EOF)
+        while(fscanf(f,"%s %s %s %s %s %d %d %d %d %s %s %s %s %d\n",L.ID,L.mdp,L.nom,L.prenom,L.cin,&L.d.jour,&L.d.mois,&L.d.annee,&L.sexe,&L.telephone,L.adresse,&L.code_postal,L.role,&L.vote)!=EOF)
         {
             i++;
 
